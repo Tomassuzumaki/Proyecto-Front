@@ -2,15 +2,17 @@
     padding:20px;
 }
 div{
-    background-color: rgb(93, 45, 124);
+    background-color: rgb(74, 77, 92);
     text-align: center;
+    font-weight: bold;
+    
 }
 
 /*estilo de la foto*/
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 15%;
+        width: 13%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px rgb(54, 1, 90);
         left: 3%;

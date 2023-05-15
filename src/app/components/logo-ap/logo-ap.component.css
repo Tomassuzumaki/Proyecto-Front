@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAp{
+    width: 150px;
+}
+
+img{
+    width: 50px;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width: medium;
+}
+
+/*---Vista Telefono---*/
+@media(max-withd:575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .redes img{
+        margin: 0.5em;
+    
+    }
+}
